@@ -1,0 +1,212 @@
+/* Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+body {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header Section CSS */
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.header-logo h2 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.header-menu {}
+
+.header-menu ul {
+    display: flex;
+    gap: 85px;
+}
+
+.header-menu ul li {
+    list-style: none;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+}
+
+/* Brand New Section CSS */
+.brand-new {
+    margin: 50px 0;
+}
+
+.brand-new-content {
+    text-align: center;
+}
+
+.brand-new-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.brand-new-description {
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+/* Banner Section CSS */
+.banner-img img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Quick List Scetion CSS */
+.quick-list {
+    margin: 130px 0;
+}
+
+.quick-list-container {
+    display: flex;
+    gap: 73px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-list-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-list-title {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.quick-list-title .quick-list {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.quick-list-title .of-our {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.quick-list-description {
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/* Features you Section CSS */
+.features-you-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.features-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.features-title::before {
+    content: " ";
+    width: 6px;
+    height: 100%;
+    position: absolute;
+    background-color: #FF900E;
+    top: 0;
+    left: 0;
+}
+
+.features-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.features-item {
+    background-color: #FFFFFF;
+    width: 586px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.features-sub-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.features-sub-des {
+    line-height: 26px;
+    color: #727272;
+}
+
+.experince-div {
+    position: absolute;
+    width: 342px;
+    height: 200px;
+    bottom: -60px;
+    left: 650px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.experince-div p {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
