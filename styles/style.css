@@ -14,6 +14,7 @@
     font-size: 20px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -250,6 +251,21 @@ header {
     align-items: center;
 }
 
+.some-facts-item:hover {
+    transform: rotate(30deg);
+    animation: roll 3s infinite;
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .facts-icon {
     width: 45px;
     height: 45px;
@@ -293,10 +309,76 @@ header {
     justify-content: space-between;
 }
 
+/* contact-section CSS */
+.contact-section {
+    padding: 100px 0;
+}
+
+.contact-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-section {
+    width: 100%;
+}
+
+.form-section {
+    width: 100%;
+}
+
+.form-titile h4 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-titile p {
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+}
+
+.contact-form textarea {
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    height: 100px;
+}
+
+.contact-form button {
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+    border: none;
+    cursor: pointer;
+}
+
 /* Footer Section CSS */
 .footer-text {
     color: #424242;
     text-align: center;
     background-color: #FFF4E7;
-    padding: 40px 0;   
+    padding: 40px 0;
 }
