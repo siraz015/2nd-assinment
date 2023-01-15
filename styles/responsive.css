@@ -1,0 +1,116 @@
+/* Quick List Scetion Responsive CSS */
+@media screen and (max-width: 576px) {
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .header-logo h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .header-menu ul {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        text-align: center
+    }
+
+    .brand-new-title {
+        color: #131313;
+        font-size: 44px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .brand-new-description {
+        padding: 0 15px;
+    }
+
+    .banner-img img {
+        padding: 0 20px;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .quick-list-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quick-list-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+
+    /* Features you Section Responsive CSS */
+    .features-you-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0 20px;
+    }
+
+    .experince-div {
+        position: absolute;
+        width: 242px;
+        height: 150px;
+        bottom: -50px;
+        left: 200px;
+        background: #FF900E;
+        border-radius: 8px;
+        font-size: 35px;
+        font-weight: 700;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .features-img img {
+        max-width: 100%;
+    }
+
+    /* Some-Facts Section Responsive CSS */
+
+    .some-facts {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .some-facts-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    /* Sponsors section CSS */
+    .sponsors {
+        margin-bottom: 30px;
+    }
+
+    .sponsors-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contact-container {
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+
+}
